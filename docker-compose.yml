@@ -1,7 +1,7 @@
 version: "3.1"
 services:
   web:
-    image: bschmidt/sipleflask:part1
+    image: bschmidt/simpleflask:part1
     deploy:
       replicas: 5
       resources:
