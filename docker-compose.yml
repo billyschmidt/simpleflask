@@ -14,8 +14,6 @@ services:
       - "80:80"
     networks:
       - webnet
-networks:
-  webnet:
 
   visualizer:
     image: dockersamples/visualizer:stable
